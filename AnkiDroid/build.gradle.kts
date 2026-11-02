@@ -98,7 +98,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.ichi2.anki"
+        applicationId = "com.alphazero.anki"
         buildConfigField("Boolean", "CI", (System.getenv("CI") == "true").toString())
         buildConfigField("String", "ACRA_URL", "\"https://ankidroid.org/acra/report\"")
         buildConfigField("String", "BACKEND_VERSION", "\"${libs.versions.ankiBackend.get()}\"")
